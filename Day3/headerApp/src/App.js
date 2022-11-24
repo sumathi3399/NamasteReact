@@ -11,7 +11,7 @@ const Logo = () => {
 const SearchBar = () => {
   return (
     <div className="searchBarDiv">
-      <input className="searchBar" type="search" placeholder="search" />
+      <input className="searchBar" type="text" placeholder="search" />
       <img className="searchIcon" src={searchIcon} alt="search" />
     </div>
   );
