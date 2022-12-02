@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+
+.innerDiv {
+  z-index: 1;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  border-radius: 35px;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  color: #eaeaea;
+  background-color: #0000000f;
+  backdrop-filter: blur(30px);
+  padding: 30px 30px;
+  position: fixed;
+  top:10;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.logo {
+  width: 40px;
+}
+.logoDiv{
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logotext{
+  color: darkblue;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.avatar {
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+}
