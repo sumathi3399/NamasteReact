@@ -1,0 +1,53 @@
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 80px;
+    padding: 30px;
+}
+.img{
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    margin-bottom: 10px;
+}
+.headingDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.heading{
+    font-size: 25px;
+}
+.anchorTag{
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.locationDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px;
+}
+.location{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.smallDiv{
+    display: flex;
+}
+.icon{
+    height: 20px;
+}
+.followers{
+    padding: 10px;
+    font-size: 18px;
+}
+.repos{
+    font-size: 20px;
+    margin: 10px;
+}
