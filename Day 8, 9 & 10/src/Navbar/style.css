@@ -1,0 +1,17 @@
+.nav-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color: blue;
+    text-decoration: none;
+}
+.nav-items{
+    margin: 0px 20px;
+    text-decoration: none;
+    color: white;
+}
+.lightTheme{
+    color: black;
+}
