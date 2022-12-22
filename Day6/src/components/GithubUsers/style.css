@@ -1,0 +1,18 @@
+
+.button{
+    border: 0px;
+    background-color: teal;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+    width: 150px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(1, 105, 105);
+}
+.buttonCont{
+    display: flex;
+    flex-direction: row;
+}
